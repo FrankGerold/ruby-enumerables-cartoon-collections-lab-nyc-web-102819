@@ -21,8 +21,4 @@ def find_the_cheese (food)
   location = food.find do 
     |item| 
     cheese_types.include?(item)
-    end
-    if location
-      food[location.to_i]
-    end
 end
