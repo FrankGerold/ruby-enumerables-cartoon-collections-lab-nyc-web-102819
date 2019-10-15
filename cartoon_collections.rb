@@ -23,6 +23,6 @@ def find_the_cheese (food)
     cheese_types.include?(item)
     end
     if location
-      food[location]
+      food[location.to_i]
     end
 end
