@@ -23,5 +23,6 @@ def find_the_cheese (food)
     |item| 
     if cheese_types.include?(item)
       end
+    end
       ]
 end
